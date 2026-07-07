@@ -17,9 +17,9 @@ st.set_page_config(
 
 #loading the saved models
 
-diabetes_model=pickle.load(open('C:/Users/gudap/OneDrive/Desktop/Multiple Disease Prediction System/savedmodels/diabetes_model.sav','rb'))
-heart_disease_model=pickle.load(open('C:/Users/gudap/OneDrive/Desktop/Multiple Disease Prediction System/savedmodels/heart_disease_model.sav','rb'))
-parkinsons_model=pickle.load(open('C:/Users/gudap/OneDrive/Desktop/Multiple Disease Prediction System/savedmodels/parkinsons_model.sav','rb'))
+diabetes_model=pickle.load(open('diabetes_model.sav','rb'))
+heart_disease_model=pickle.load(open('heart_disease_model.sav','rb'))
+parkinsons_model=pickle.load(open('parkinsons_model.sav','rb'))
 
 #sidebar for navigation
 
